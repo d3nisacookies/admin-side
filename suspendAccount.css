@@ -1,0 +1,47 @@
+/* App.css */
+
+.box {
+    background-color: #fff; /* White background */
+    color: #484848; /* Dark text color */
+    padding: 20px;
+    border-radius: 8px; /* Slightly rounded corners */
+    width: 500px;
+    margin: 100px auto;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Soft shadow for depth */
+  }
+  
+  .box h2 {
+    margin-bottom: 30px;
+    text-align: center;
+    font-family: 'Airbnb Cereal App', Arial, sans-serif; /* Use Airbnb's primary font */
+    font-weight: bold;
+    color: #333; /* Dark text color */
+  }
+  
+  .box label {
+    margin-right: 10px;
+    font-family: 'Airbnb Cereal App', Arial, sans-serif; /* Use Airbnb's primary font */
+    font-weight: bold;
+    color: #484848; /* Dark text color */
+  }
+  
+  .box select,
+  .box button {
+    padding: 12px; /* Slightly larger padding */
+    border: 1px solid #ddd; /* Light border */
+    border-radius: 6px;
+    margin-bottom: 20px; /* Increased margin bottom */
+    width: 100%;
+    box-sizing: border-box; /* Include padding and border in width calculation */
+  }
+  
+  .box button {
+    background-color: #ff5a5f; /* Red color for button */
+    color: #fff; /* White text color */
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .box button:hover {
+    background-color: #e74c51; /* Darker red on hover */
+  }

@@ -1,0 +1,59 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+  }
+  
+  h2 {
+    margin-bottom: 10px;
+    text-align: center;
+  }
+  
+  /* Additional styles for table */
+  .displayAcctResult table {
+    width: 80%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .displayAcctResult th,
+  .displayAcctResult td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: left;
+  }
+  
+  .displayAcctResult th {
+    background-color: #f2f2f2;
+  }
+  
+  .buttons-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+  }
+  
+  .buttons-container button {
+    margin: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .buttons-container .logOutButton {
+    background-color: red;
+    color: white;
+  }
+  
+  .buttons-container .go-back-button {
+    background-color: #3498db;
+    color: white;
+  }
